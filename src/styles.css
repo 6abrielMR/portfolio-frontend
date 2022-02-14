@@ -1,0 +1,86 @@
+:root {
+  --color-primary: #212428;
+  --color-primary-opacity: #21242880;
+  --color-accent: #ff014f;
+  --color-dark: #0d1013;
+  --color-text: #ffffff;
+  --color-primary-accent: #32363b;
+  --color-lighten-shadows: #2f3438;
+  --color-dark-indicators-line: #17191c;
+
+  --basic-shadow: 0px 7px 20px 11px rgba(0, 0, 0, 0.2);
+  --linear-gradient: linear-gradient(
+    135deg,
+    #1f2125,
+    #24282c,
+    #23262b,
+    #181a1d
+  );
+  --linear-gradient-nav: linear-gradient(
+    135deg,
+    #1f2125,
+    #24282c,
+    #23262b,
+    #1f2125
+  );
+  --box-shadow-buttons: -3px -3px 25px -3px var(--color-lighten-shadows),
+    5px 5px 25px -3px var(--color-dark);
+  --transition-buttons: all 0.3s ease-in-out;
+  --transition-features: all 0.4s ease-in-out;
+  --transition-section-entrances: all 0.6s ease-in-out;
+}
+
+html,
+body,
+p {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  width: 18vw;
+  height: 100vh;
+}
+
+.main-content {
+  width: 82vw;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.content-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-section > p {
+  color: var(--color-accent);
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: var(--transition-section-entrances);
+}
+
+.content-section h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateX(100px);
+  transition: var(--transition-section-entrances);
+}
+
+.isVisibleX {
+  opacity: 1 !important;
+  transform: translateX(0px) !important;
+}
+
+.isVisibleY {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}

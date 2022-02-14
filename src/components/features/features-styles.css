@@ -1,0 +1,11 @@
+.features .content-features {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 380px;
+  gap: 50px;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: var(--transition-section-entrances);
+}

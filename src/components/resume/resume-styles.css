@@ -1,0 +1,557 @@
+.resume {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.resume > p,
+.resume > h2 {
+  opacity: 1 !important;
+  transform: translateX(0px) !important;
+}
+
+.resume .content-section-resume-columns > p,
+.resume .content-section-resume > p {
+  background-color: transparent;
+  color: var(--color-accent);
+}
+
+.resume .content-section-resume-columns > h2,
+.resume .content-section-resume > h2 {
+  font-size: 3rem;
+  margin-bottom: 60px;
+  opacity: 1 !important;
+  transform: translateX(0px) !important;
+}
+
+/*
+* ====================================================== *
+                        NAVBAR RESUME
+* ====================================================== *
+*/
+
+.resume .navbar-resume {
+  background-image: var(--linear-gradient);
+  background-size: 400%;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow-buttons);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.resume .navbar-resume p {
+  background-color: transparent;
+}
+
+.resume .navbar-resume div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: var(--transition-features);
+}
+
+.resume .navbar-resume div:nth-child(1) {
+  border-radius: 20px 0 0 20px;
+}
+
+.resume .navbar-resume div:nth-child(3) {
+  border-radius: 0 20px 20px 0;
+}
+
+.resume .navbar-resume div:hover {
+  background-image: var(--linear-gradient-nav);
+  background-position: right;
+  background-size: 400%;
+  box-shadow: var(--box-shadow-buttons);
+  cursor: pointer;
+}
+
+.resume .navbar-resume > div > p {
+  font-size: 1.2rem;
+  transition: var(--transition-features);
+}
+
+.resume .navbar-resume div:hover p {
+  color: var(--color-accent);
+}
+
+.active {
+  background-image: var(--linear-gradient-nav);
+  background-position: right;
+  background-size: 400%;
+  box-shadow: var(--box-shadow-buttons);
+  cursor: pointer;
+}
+
+.active p {
+  color: var(--color-accent);
+}
+
+/*
+* ======================================================== *
+* -------------------------------------------------------- *
+* ........................................................ *
+*/
+
+/*
+* ====================================================== *
+                        EDUCATION
+* ====================================================== *
+*/
+
+.resume .content-section-resume-columns .section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(var(--rows), 300px);
+}
+
+.resume .content-section-resume-columns .section .content-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-indicators {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 0.2fr auto;
+  height: 100%;
+  width: 20px;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-indicators
+  .item-indicator-lamp {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr 20px 0.3fr;
+  place-items: center;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-indicators
+  .item-indicator-lamp
+  .indicator-line {
+  background-color: var(--color-dark-indicators-line);
+  height: 100%;
+  width: 5px;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-indicators
+  .item-indicator-lamp
+  .indicator-lamp {
+  border: 5px solid var(--color-dark-indicators-line);
+  border-radius: 100%;
+  height: 100%;
+  width: 20px;
+  transition: var(--transition-features);
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-indicators
+  .item-indicator-line {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-indicators
+  .item-indicator-line
+  .indicator-line {
+  background-color: var(--color-dark-indicators-line);
+  height: 100%;
+  width: 5px;
+}
+
+.resume .content-section-resume-columns .section .content-items .item-card {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-line {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 0.2fr auto;
+  height: 100%;
+  width: 25px;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-line
+  .card-line-line {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 1fr 20px 0.3fr;
+  place-items: center;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-line
+  .card-line-line
+  .card-line-line-line {
+  background-color: var(--color-dark-indicators-line);
+  height: 5px;
+  width: 100%;
+  z-index: 1;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-card {
+  height: 100%;
+  width: 100%;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-card
+  .content-card {
+  border-radius: 20px;
+  box-shadow: var(--box-shadow-buttons);
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-between;
+  padding: 40px;
+  transition: var(--transition-features);
+  width: 95%;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-card
+  .content-card
+  > h3 {
+  font-weight: bold;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-card
+  .content-card
+  > span {
+  color: #9e9e9e;
+}
+
+.resume
+  .content-section-resume-columns
+  .section
+  .content-items
+  .item-card
+  .item-card-card
+  .content-card
+  > p {
+  background-color: transparent;
+  color: #9e9e9e;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.no-active-card {
+  background-image: var(--linear-gradient);
+  background-size: 400%;
+}
+
+.active-card {
+  background-image: var(--linear-gradient);
+  background-position: right;
+  background-size: 400%;
+}
+
+.no-active-indicator-lamp {
+  background-color: transparent;
+}
+
+.active-indicator-lamp {
+  background-color: var(--color-accent);
+}
+
+/*
+* ======================================================== *
+* -------------------------------------------------------- *
+* ........................................................ *
+*/
+
+/*
+* ====================================================== *
+                    PROFESSIONAL SKILLS
+* ====================================================== *
+*/
+
+.resume .content-skill-bars {
+  margin-top: -20px;
+  padding-right: 50px;
+}
+
+.resume .content-skill-bars {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.resume .content-skill-bars .bar {
+  margin: 20px 0;
+}
+
+.resume .content-skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+
+.resume .content-skill-bars .bar .info {
+  margin-bottom: 5px;
+}
+
+.resume .content-skill-bars .bar .info span {
+  animation: showText 0.5s 1s linear forwards;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0;
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.resume .content-skill-bars .bar .progress-line {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 20px;
+  width: 100%;
+  background-image: linear-gradient(180deg, #18191c, #22272b);
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.8);
+  animation: animateProgressLine 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.resume .content-skill-bars .bar .progress-line span {
+  height: 40%;
+  background: linear-gradient(90deg, #ef297f, #c81903);
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animateProgressLine 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+@keyframes animateProgressLine {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.resume .content-skill-bars .bar .progress-line.HTML span {
+  width: 90%;
+}
+
+.resume .content-skill-bars .bar .progress-line.CSS span {
+  width: 90%;
+}
+
+.resume .content-skill-bars .bar .progress-line.SASS span {
+  width: 80%;
+}
+
+.resume .content-skill-bars .bar .progress-line.JavaScript span {
+  width: 85%;
+}
+
+.resume .content-skill-bars .bar .progress-line.TypeScript span {
+  width: 60%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Jquery span {
+  width: 80%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Php span {
+  width: 85%;
+}
+
+.resume .content-skill-bars .bar .progress-line.SQL span {
+  width: 75%;
+}
+
+.resume .content-skill-bars .bar .progress-line.CSharp span {
+  width: 80%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Java span {
+  width: 80%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Dart span {
+  width: 75%;
+}
+
+.resume .content-skill-bars .bar .progress-line.NETCore span {
+  width: 60%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Angular span {
+  width: 80%;
+}
+
+.resume .content-skill-bars .bar .progress-line.ReactJs span {
+  width: 75%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Laravel span {
+  width: 70%;
+}
+
+.resume .content-skill-bars .bar .progress-line.Flutter span {
+  width: 85%;
+}
+
+.resume .content-skill-bars .bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.resume .content-skill-bars .bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -35px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #000;
+  padding: 1px 8px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.resume .content-skill-bars .bar .progress-line.HTML span::after {
+  content: "90";
+}
+
+.resume .content-skill-bars .bar .progress-line.CSS span::after {
+  content: "90";
+}
+
+.resume .content-skill-bars .bar .progress-line.SASS span::after {
+  content: "80";
+}
+
+.resume .content-skill-bars .bar .progress-line.JavaScript span::after {
+  content: "85";
+}
+
+.resume .content-skill-bars .bar .progress-line.TypeScript span::after {
+  content: "60";
+}
+
+.resume .content-skill-bars .bar .progress-line.Jquery span::after {
+  content: "80";
+}
+
+.resume .content-skill-bars .bar .progress-line.Php span::after {
+  content: "85";
+}
+
+.resume .content-skill-bars .bar .progress-line.SQL span::after {
+  content: "75";
+}
+
+.resume .content-skill-bars .bar .progress-line.CSharp span::after {
+  content: "80";
+}
+
+.resume .content-skill-bars .bar .progress-line.Java span::after {
+  content: "80";
+}
+
+.resume .content-skill-bars .bar .progress-line.Dart span::after {
+  content: "75";
+}
+
+.resume .content-skill-bars .bar .progress-line.NETCore span::after {
+  content: "60";
+}
+
+.resume .content-skill-bars .bar .progress-line.Angular span::after {
+  content: "80";
+}
+
+.resume .content-skill-bars .bar .progress-line.ReactJs span::after {
+  content: "75";
+}
+
+.resume .content-skill-bars .bar .progress-line.Laravel span::after {
+  content: "70";
+}
+
+.resume .content-skill-bars .bar .progress-line.Flutter span::after {
+  content: "85";
+}

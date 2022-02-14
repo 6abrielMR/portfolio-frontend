@@ -1,0 +1,70 @@
+[
+  [
+    {
+      "name": "HTML",
+      "percent": "90"
+    },
+    {
+      "name": "CSS",
+      "percent": "90"
+    },
+    {
+      "name": "SASS",
+      "percent": "80"
+    },
+    {
+      "name": "JavaScript",
+      "percent": "85"
+    },
+    {
+      "name": "TypeScript",
+      "percent": "60"
+    },
+    {
+      "name": "Jquery",
+      "percent": "80"
+    },
+    {
+      "name": "Php",
+      "percent": "85"
+    },
+    {
+      "name": "SQL",
+      "percent": "75"
+    }
+  ],
+  [
+    {
+      "name": "CSharp",
+      "percent": "80"
+    },
+    {
+      "name": "Java",
+      "percent": "80"
+    },
+    {
+      "name": "Dart",
+      "percent": "75"
+    },
+    {
+      "name": "NETCore",
+      "percent": "60"
+    },
+    {
+      "name": "Angular",
+      "percent": "80"
+    },
+    {
+      "name": "ReactJs",
+      "percent": "75"
+    },
+    {
+      "name": "Laravel",
+      "percent": "70"
+    },
+    {
+      "name": "Flutter",
+      "percent": "85"
+    }
+  ]
+]

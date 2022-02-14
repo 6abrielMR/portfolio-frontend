@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
+.home {
+  background-image: url(../../../public/img/bg-home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-layer {
+  background-color: var(--color-primary-opacity);
+}
+
+.top-layer h1 {
+  color: transparent;
+  font-size: 7rem;
+  font-weight: bold;
+  -webkit-text-stroke: 0.3vw #ccc;
+  text-transform: uppercase;
+  line-height: 7rem;
+}
+
+.top-layer h1::before {
+  content: attr(data-text);
+  position: absolute;
+  width: 0;
+  height: 7rem;
+  color: var(--color-text);
+  -webkit-text-stroke: 0vw #ccc;
+  border-right: 2px solid var(--color-text);
+  overflow: hidden;
+  animation: animateMainName 6s linear infinite;
+  white-space: nowrap;
+}
+
+.top-layer > p {
+  background-color: transparent;
+  font-size: 2.5rem;
+}
+
+.top-layer > p > span {
+  color: var(--color-accent);
+}
+
+@keyframes animateMainName {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 85%;
+  }
+}

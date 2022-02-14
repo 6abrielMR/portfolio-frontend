@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Restfull Java Spring Boot",
+    "subtitle": "Udemy",
+    "description": "Desarrollo de aplicaciones Rest profesionales con Spring Boot y añade seguridad a través de JWT o Oauth 2"
+  },
+  {
+    "title": "Firebase para Android",
+    "subtitle": "Platzi",
+    "description": "Desarrollo de aplicaciones navitvas para Android en java con Firebase"
+  },
+  {
+    "title": "Desarrollador Android",
+    "subtitle": "Next University",
+    "description": "Desarrollo de aplicaciones Android interactivas y exitosas, desde un conocimiento básico hasta avanzado"
+  },
+  {
+    "title": "Fundamentos de C# con NET Core",
+    "subtitle": "Platzi",
+    "description": "Desarrollo de aplicaciones Rest con NET Core"
+  },
+  {
+    "title": "C# con NET Core",
+    "subtitle": "Platzi",
+    "description": "Desarrollo de aplicaciones Rest profesionales con NET Core y añade seguridad a través de JWT"
+  },
+  {
+    "title": "Banckend con Php",
+    "subtitle": "Platzi",
+    "description": "Desarrollo de aplicaciones Rest profesionales con Php y añade seguridad a través de JWT"
+  },
+  {
+    "title": "Desarrolador Flutter",
+    "subtitle": "Platzi",
+    "description": "Creación de aplicaciones nativas para Android y IOS"
+  },
+  {
+    "title": "Desarrollador Flutter Avanzado",
+    "subtitle": "Udemy",
+    "description": "Desarrollo de aplicaciones con Flutter usando sockets, bloc, provider, cubit, jwt, mongo, express, GPS, rutas en mapa, tráfico, ApplePay y GooglePay"
+  },
+  {
+    "title": "Desarrollador JavaScript (NodeJs, Angular)",
+    "subtitle": "Udemy",
+    "description": "Desarrollo web con JavaScript, jQuery, JSON, TypeScript, Angular, Node, MEAN"
+  },
+  {
+    "title": "Desarrolador Php (Laravel y Symfony)",
+    "subtitle": "Udemy",
+    "description": "Desarrollo PHP desde cero, bases de datos, SQL, MySQL, POO, MVC, Laravel 5, 6, 7 y 8, Symfony 4, 5 y WordPress"
+  },
+  {
+    "title": "React: De cero a experto (Hooks y MERN)",
+    "subtitle": "Udemy",
+    "description": "Desarrollador en React Js usando Context API, Hooks, Firestore, JWT, Testing, Despliegues, CRUD, SASS"
+  }
+]
