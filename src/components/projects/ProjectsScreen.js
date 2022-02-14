@@ -31,20 +31,20 @@ export const ProjectsScreen = () => {
         proyectos
       </h2>
       <div className={`w-100 content-cards${inView ? " isVisibleY" : ""}`}>
-        {projects.map((project) => (
+        {projects.map(({ id, img, title, url }) => (
           <div
-            key={project.id}
+            key={id}
             className="d-flex justify-content align-items-center mt-2 cards"
           >
             <div className="cards-content">
               <div className="cards-content-img">
-                <img src={project.img} alt={project.title} />
+                <img src={img} alt={title} />
               </div>
-              <p className="text-uppercase">desarrollo</p>
-              <h3>
-                {project.title}
+              <p className="text-uppercase pt-2">desarrollo</p>
+              <a href={url}>
+                {title}
                 <i className="fas fa-external-link-alt"></i>
-              </h3>
+              </a>
             </div>
           </div>
         ))}

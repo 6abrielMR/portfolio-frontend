@@ -5,7 +5,8 @@ export const Button = ({
   icon = "",
   text = "",
   striking = false,
-  onclick = () => {},
+  isLink = false,
+  toNavigate = "",
 }) => {
   return (
     <div
@@ -14,7 +15,18 @@ export const Button = ({
       }`}
       onClick={onclick}
     >
-      {icon && !text ? <i className={icon}></i> : text}
+      {icon && !text ? (
+        <i className={icon}></i>
+      ) : isLink ? (
+        <a
+          className="w-100 h-100 d-flex justify-content-center align-items-center text-white text-decoration-none"
+          href={toNavigate}
+        >
+          {text}
+        </a>
+      ) : (
+        text
+      )}
     </div>
   );
 };

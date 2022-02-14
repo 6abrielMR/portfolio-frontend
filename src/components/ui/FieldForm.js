@@ -32,6 +32,7 @@ export const FieldForm = ({
               onFocus={onFocus}
               onBlur={onBlur}
               name={name}
+              autoComplete="off"
               onChange={onChange}
               value={value}
             />
@@ -41,6 +42,7 @@ export const FieldForm = ({
               onFocus={onFocus}
               onBlur={onBlur}
               name={name}
+              autoComplete="off"
               onChange={onChange}
               value={value}
             />

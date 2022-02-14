@@ -78,12 +78,16 @@ export const ContactMeScreen = () => {
           <p className="text-capitalize">
             desarrollador full stack, mobile & devops
           </p>
-          <p>
+          <p className="italic">
             Me encuentro disponible para trabajar de tiempo completo, enviame un
             mensaje o contactame por algunas de mis redes.{" "}
           </p>
           <p>
-            Telefono: <span>+573144456753</span>
+            <span>"</span>
+            <em className="italic">
+              Viviendo, aprendiendo y subiendo de nivel un día a la vez
+            </em>
+            <span> "</span>
           </p>
           <p className="text-capitalize">encuentrame</p>
           <div className="d-flex">

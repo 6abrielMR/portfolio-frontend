@@ -64,3 +64,7 @@
 .contact-me .content-contact-me .contact-me-info p:nth-child(6) > span {
   color: var(--color-text);
 }
+
+.italic {
+  line-height: 1.6rem !important;
+}

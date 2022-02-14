@@ -14,7 +14,12 @@ export const HomeScreen = () => {
         <p className="pt-4 pb-5">
           Soy un <span>Desarrollador</span>
         </p>
-        <Button size="m" text="contactame" />
+        <Button
+          size="m"
+          text="contactame"
+          isLink={true}
+          toNavigate="#contact"
+        />
       </div>
     </div>
   );
